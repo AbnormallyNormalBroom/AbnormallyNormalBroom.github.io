@@ -1,21 +1,40 @@
-nav {
-    margin: auto;
-    width: 30%;
-    padding: 10px;
-    border: 3px solid #73AD21;
-    background: border-box #b0f542;
-    color: blue;
+body {
+    color: #040c1a;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4287f5;
 }
+
+
+
+nav ul {
+    position:fixed;
+    background-color: #92b7f7;
+    list-style-type: none;
+    bottom: 0px;
+    padding: 0px;
+    width: 100px;
+}
+
+
+
+nav ul li a {
+    display:block;
+    padding:10px;
+}
+    nav ul li a:hover {
+        background-color: #f5f9ff;
+        color: #92b7f7;
+    }
+    nav ul li a:active {
+        background-color: white;
+        color: #92b7f7;
+    }
+
 
 #clean {
     text-decoration:none; 
-    color:red; 
+    color:blue; 
     font-weight:600
-
 }
 
 
-body {
-    color: darkslateblue;
-    font-family: Arial, Helvetica, sans-serif;
-}
