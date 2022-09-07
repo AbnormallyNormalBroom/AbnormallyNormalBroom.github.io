@@ -1,4 +1,21 @@
-nav {color:blue;}
-body {color: blue;}
-body {font-family: Arial, Helvetica, sans-serif;}
+nav {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    border: 3px solid #73AD21;
+    background: border-box #b0f542;
+    color: blue;
+}
 
+#clean {
+    text-decoration:none; 
+    color:red; 
+    font-weight:600
+
+}
+
+
+body {
+    color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
