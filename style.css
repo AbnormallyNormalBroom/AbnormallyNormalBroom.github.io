@@ -6,15 +6,6 @@ body {
 
 
 
-nav ul {
-    position: fixed;
-    list-style-type: none;
-    bottom: 0px;
-    padding: 10px;
-    width: 100px;
-}
-
-
 
 .Content h1{
     display:block;
@@ -40,21 +31,42 @@ nav ul {
 
 
 
+nav ul {
+    position: fixed;
+    list-style-type: none;
+    bottom: 0px;
+    padding: 10px;
+    width: 100px;
+    float:right;
+}
 
-nav ul li a {
+nav ul li a{
     display: block;
     background-color: #eb4034;
     padding: 10px;
 }
+
 nav ul li a:hover {
     background-color: #f52516;
     color: #f52516;
     transform:translateX(10%);
 }
+
 .active {
     display: block;
     background-color: #f52516;
 }
+
+nav ul li div {
+    display:inline-flex;
+    transform:translateY(10%);
+}
+
+nav ul li div img {
+    height:25px;
+    transform:translateY(15%);
+}
+
 
 #clean {
     text-decoration:none; 
