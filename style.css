@@ -21,15 +21,14 @@ nav ul li a {
     display:block;
     padding:10px;
 }
-    nav ul li a:hover {
-        background-color: #f5f9ff;
-        color: #92b7f7;
-    }
-    nav ul li a:active {
-        background-color: white;
-        color: #92b7f7;
-    }
+nav ul li a:hover {
+    background-color: #f5f9ff;
+    color: #92b7f7;
+}
 
+.active{
+    background-color: #ae9dfc;
+}
 
 #clean {
     text-decoration:none; 
