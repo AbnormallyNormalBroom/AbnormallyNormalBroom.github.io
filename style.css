@@ -22,9 +22,29 @@ body {
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
-
-
-
+.topnav {
+    display: block;
+    overflow: auto;
+    padding:0px;
+    width: 100%;
+    background-color: #333537;
+    border-radius: 10px;
+}
+.topnav > ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.topnav > ul li {
+    display:inline;
+    float: left;
+}
+    .topnav > ul li a {
+        display: block;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
 
 
 nav ul {
@@ -37,7 +57,6 @@ nav ul {
 
 nav ul li a {
     display: block;
-    position: relative;
     background-color: #eb4034;
     padding: 10px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
@@ -48,8 +67,6 @@ nav ul li a:hover{
     color: #f52516;
     transform: translateX(5%);
 }
-
-
 
 .active {
     display: block;
