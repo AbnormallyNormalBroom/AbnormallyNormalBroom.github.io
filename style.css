@@ -2,30 +2,51 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1d2022;
+    background-image: url(background1.jpg);
+    background-attachment:fixed;
 }
-
-
 
 .Content h1{
     display:block;
     text-align:center;
 }
-
 .Content {
     transform: translateY(100px);
     margin: auto;
     width: 45%;
     display: block;
     padding: 20px;
-    background-color: #2d2f30;
+    background-color: #2d2f30e3;
     border-radius: 20px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
+.sidecontentimage1 {
+    position: absolute;
+    display: block;
+    float: right;
+    top: 329px;
+    right: 0px;
+    background-color: #2d2f30e3;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
+    width: 22%;
+}
+.sidecontentimage1 > img {
+    display: block;
+    height: 297px;
+    margin: auto;
+}
+.sidecontentimage1 > p{
+    text-align: center;
+}
+
+
+
 .topnav {
     display: block;
     overflow: auto;
-    padding:0px;
+    padding: 0px;
     width: 100%;
     background-color: #333537;
     border-radius: 10px;
@@ -39,7 +60,7 @@ body {
     display:inline;
     float: left;
 }
-    .topnav > ul li a {
+.topnav > ul li a {
         display: block;
         padding: 10px;
         border-radius: 10px;
@@ -54,14 +75,12 @@ nav ul {
     padding: 10px;
     width: 100px;
 }
-
 nav ul li a {
     display: block;
     background-color: #eb4034;
     padding: 10px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
 }
-
 nav ul li a:hover{
     background-color: #f52516;
     color: #f52516;
