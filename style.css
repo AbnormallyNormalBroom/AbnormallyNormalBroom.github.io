@@ -146,24 +146,57 @@ body {
 table {
     
     border: 1px black solid;
-    background-color: red;
-    border-collapse:collapse;
+    background-color: #f97676;
+    border-radius: 3px;
 }
 td {
     border: 1px black solid;
     color: black;
 }
 thead{
-    background-color: white;
+    background-color: #fb3d3d;
     font-size: 20px;
 }
 
 .passed {
     background-color: lightgreen;
+    border: 1.7px black solid;
 }
 
 .failed {
     background-color: darkred;
     color: white;
+    border: 1.7px black solid;
+}
+
+.NYD {
+    background-color: #7676ff;
+    color: white;
+    border: 1.7px black solid;
+}
+
+.q1Header {
+    background-color: #fa5757;
+    text-align:center;
+    weight:400;
+    border: 2px black solid;
+}
+.q2Header {
+    background-color: #fa5757;
+    text-align:center;
+    weight:400;
+    border: 2px black solid;
+}
+.q3Header {
+    background-color: #fa5757;
+    text-align:center;
+    weight:400;
+    border: 2px black solid;
+}
+.q4Header {
+    background-color: #fa5757;
+    text-align:center;
+    weight:400;
+    border: 2px black solid;
 }
 
