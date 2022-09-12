@@ -2,7 +2,7 @@ body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1d2022;
-    background-image: url(background1.jpg);
+    background-image: url(background2.jpg);
     background-attachment:fixed;
 }
 
@@ -16,9 +16,10 @@ body {
     width: 45%;
     display: block;
     padding: 20px;
-    background-color: #2d2f30e3;
     border-radius: 20px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
+    background-color: rgba(62,8,29, 0.3);
+    backdrop-filter:blur(5px);
 }
 
 .sidecontentimage1 {
@@ -27,7 +28,8 @@ body {
     float: right;
     top: 329px;
     right: 0px;
-    background-color: #2d2f30e3;
+    background-color: rgba(62,8,29, 0.3);
+    backdrop-filter: blur(5px);
     border-radius: 20px 0px 0px 20px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
     width: 22%;
@@ -44,6 +46,7 @@ body {
 
 
 .topnav {
+    border: 2px solid black;
     display: block;
     overflow: auto;
     padding: 0px;
@@ -145,7 +148,7 @@ body {
 
 
 table {
-    border: 1px black solid;
+    border: 2px black solid;
     background-color: #f97676;
     border-radius: 3px;
 }
@@ -178,25 +181,57 @@ thead{
 .q1Header {
     background-color: #fa5757;
     text-align:center;
-    weight:400;
     border: 2px black solid;
 }
 .q2Header {
     background-color: #fa5757;
     text-align:center;
-    weight:400;
     border: 2px black solid;
 }
 .q3Header {
     background-color: #fa5757;
     text-align:center;
-    weight:400;
     border: 2px black solid;
 }
 .q4Header {
     background-color: #fa5757;
     text-align:center;
-    weight:400;
     border: 2px black solid;
 }
 
+.tablediv {
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+}
+
+
+
+
+.progressbackground {
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+}
+
+.progressbar {
+    background-color: aqua;
+    height: 100%;
+    width: 40%;
+}
+
+.ndsaprogresscontainer {
+    padding: 10px;
+    background-color: #1c1d1ee3;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.topndsaprogresscontainer{
+    display:flex;
+    padding:10px;
+    justify-content:center;
+}

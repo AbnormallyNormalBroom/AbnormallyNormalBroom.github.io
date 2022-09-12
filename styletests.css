@@ -56,3 +56,30 @@ body {
     color: black;
     transform: translateX(5%);
 }
+
+
+
+
+
+
+.progressbackground {
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+}
+
+.progressbar {
+    background-color: aqua;
+    height: 100%;
+    width: 50%;
+}
+
+.ndsaprogresscontainer {
+    padding: 10px;
+    background-color: #2d2f30e3;
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
