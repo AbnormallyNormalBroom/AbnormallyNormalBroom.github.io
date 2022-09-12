@@ -143,14 +143,14 @@ body {
 
 
 
+
 table {
-    
     border: 1px black solid;
     background-color: #f97676;
     border-radius: 3px;
 }
 td {
-    border: 1px black solid;
+    border: 1.7px black solid;
     color: black;
 }
 thead{
