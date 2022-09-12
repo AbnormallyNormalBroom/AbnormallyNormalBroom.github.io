@@ -111,6 +111,13 @@ body {
     border: none;
 }
 
+
+
+
+
+
+
+
 .dropdown-content > a {
     display: block;
     background-color: #eb4034;
@@ -134,4 +141,29 @@ body {
     font-weight:600
 }
 
+
+
+table {
+    
+    border: 1px black solid;
+    background-color: red;
+    border-collapse:collapse;
+}
+td {
+    border: 1px black solid;
+    color: black;
+}
+thead{
+    background-color: white;
+    font-size: 20px;
+}
+
+.passed {
+    background-color: lightgreen;
+}
+
+.failed {
+    background-color: darkred;
+    color: white;
+}
 
