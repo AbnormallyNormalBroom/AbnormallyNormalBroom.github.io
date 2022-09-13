@@ -51,7 +51,9 @@ body {
     overflow: auto;
     padding: 0px;
     width: 100%;
-    background-color: #333537;
+    max-height:38px;
+    background-color: rgba(62,8,29, 0.3);
+    backdrop-filter: blur(5px);
     border-radius: 10px;
 }
 .topnav > ul {
@@ -69,6 +71,13 @@ body {
         border-radius: 10px;
         text-align: center;
 }
+    .topnav > ul li img {
+        display: block;
+        padding: 0px;
+        float: right;
+        height: 38px;
+        border-radius: 10px;
+    }
 .active {
     background-color: #ed2315;
 }
