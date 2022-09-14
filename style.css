@@ -12,6 +12,7 @@ body {
 }
 ::-webkit-scrollbar-thumb {
     background-color: #930707;
+    border-radius:10px;
 }
 
 
@@ -23,6 +24,7 @@ body {
 .Content {
     transform: translateY(100px);
     margin: auto;
+    min-height:650px;
     width: 45%;
     display: block;
     padding: 20px;
@@ -36,18 +38,18 @@ body {
     position: absolute;
     display: block;
     float: right;
-    top: 329px;
+    top: 200px;
     right: 0px;
     background-color: rgba(62,8,29, 0.3);
     backdrop-filter: blur(5px);
     border-radius: 20px 0px 0px 20px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
     width: 22%;
+    padding:10px;
 }
 .sidecontentimage1 > img {
     display: block;
     height: 297px;
-    margin: auto;
 }
 .sidecontentimage1 > p{
     text-align: center;
@@ -58,7 +60,7 @@ body {
 .topnav {
     border: 2px solid black;
     display: block;
-    overflow: auto;
+    overflow: hidden;
     padding: 0px;
     width: 100%;
     max-height:38px;
@@ -86,10 +88,10 @@ body {
     padding: 0px;
     float: right;
     height: 38px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .active {
-    background-color: #ed2315;
+    background-color: #eb4034;
 }
 
 
@@ -137,14 +139,18 @@ body {
 
 
 
-
+.piheader {
+    text-align:center;
+    font-weight:600;
+}
 
 .personalinformation {
+    display: block;
     background-color: rgba(0, 0, 0, 0.3);
-    max-width:40%;
+    max-width: 40%;
     border-radius: 5px;
-    font-weight:600;
     font-size: 150%;
+    height: 100%;
     padding: 10px;
 }
 
@@ -153,18 +159,20 @@ body {
 }
 
 .ecinformation {
+    display: block;
     background-color: rgba(0, 0, 0, 0.3);
     max-width: 40%;
+    height:100%;
     border-radius: 5px;
-    font-weight: 600;
     font-size: 150%;
     padding: 10px;
     float: right;
 }
 
 .characteristics {
+    display:block;
     background-color: rgba(0, 0, 0, 0.3);
-    max-width: 40%;
+    max-width: 100%;
     border-radius: 5px;
     padding: 10px;
     float: right;
@@ -179,8 +187,9 @@ body {
 .hzbuildingimg > img {
     display: inline-block;
     float: right;
-    max-width: 50%;
+    max-width: 45%;
     border: 2px solid black;
+    float: right;
 }
 
 .introduction {
@@ -188,7 +197,9 @@ body {
 }
 
 .homepagestudyprogrammeElement {
+    display:inline;
     padding:10px;
+    width:45%;
 }
 
 .homepagemotivation {
@@ -320,4 +331,68 @@ thead{
     display:flex;
     padding:10px;
     justify-content:center;
+}
+
+
+
+
+.blogpost {
+    display: block;
+    background-color: rgba(90,19,19, 0.4);
+    min-height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 1);
+    padding: 10px;
+    justify-content: center;
+}
+
+.blogtitle {
+    display:block;
+    width:100%;
+    text-align:center;
+    font-weight:600;
+    font-size: 200%;
+    padding:10px;
+}
+
+.blogcontent {
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-height: 50px;
+    overflow:hidden;
+}
+
+.blogpostdate {
+    padding: 10px;
+}
+
+.buttondiv {
+    display:flex;
+    justify-content:center;
+    padding: 5px;
+}
+
+.blogbutton {
+    background-color: #eb4034;
+    padding: 5px;
+    width: 120px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+.blogbutton:active .blogcontent{
+    max-height:none;
+}
+
+.blogbuttontext {
+
+}
+
+.elementspacer {
+    padding:10px;
 }
