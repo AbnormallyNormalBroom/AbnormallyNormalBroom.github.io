@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="style.css">
-
+	<script src="jsfunctions.js"></script>
 	<title>Homepage</title>
 
 </head>
@@ -67,13 +67,13 @@
 					<div class="blogtitle">
 						Programming Experience
 					</div>
-					<div class="blogcontent">
+					<div class="blogcontent" id="programmingexperience">
 						I've some programming experience. I've worked a lot with unity to make some small games. Almost all of the programming i did on there was in C# but it was always in the unity enviornment. Unity does a lot for you so there is a lot i did not learn when it comes to programming.
 						I also did some programming in python but i never had any big projects i did on python.
 					</div>
 					<div class="buttondiv">
 						<button class="blogbutton">
-							<div class="blogbuttontext">
+							<div class="blogbuttontext" id="programmingexperiencebutton" onclick="ReadMoreBlog('programmingexperience','programmingexperiencebutton')">
 								Read more
 							</div>
 						</button>
@@ -83,7 +83,6 @@
 					</div>
 				</div>
 			</div>
-
 
 
 
@@ -92,13 +91,13 @@
 					<div class="blogtitle">
 						Personal SWOT analysis
 					</div>
-					<div class="blogcontent">
+					<div class="blogcontent" id="personalswot">
 						Everyone has strengths and weaknesses. Things that make them stand out or hold them back. For me a strength would probably be that i can see solutions to problems i'm having quite quickly. But this also possibly part of my weakness, i've never been asking many questions, because i can often solve... things on my own.
 						I dont ask questions when i need to, because i never needed to before. This is likely the thing i need to work on the most for myself during this study programme. I need to learn to realize when i need to ask questions and also to actually ask them.
 					</div>
 					<div class="buttondiv">
 						<button class="blogbutton">
-							<div class="blogbuttontext">
+							<div class="blogbuttontext" id="personalbutton" onclick="ReadMoreBlog('personalswot', 'personalbutton')">
 								Read more
 							</div>
 						</button>
@@ -109,28 +108,51 @@
 				</div>
 			</div>
 
-			<!--
+
 			<div class="elementspacer">
 				<div class="blogpost">
 					<div class="blogtitle">
-						bingbong
+						Study Choice
 					</div>
-					<div class="blogcontent">
-						BIG TEXT BIG TEXT BIG TEXT BIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXTBIG TEXT BIG TEXT BIG TEXT
+					<div class="blogcontent" id="studychoice">
+						The reason i chose this study programme is mostly because i've always been busy with computers whenever i had the time. I've spent basically all of the spare time i ever had on tinkering with computers. Whether i was programming, building pc's, tinkering with old devices or just messing up my computer in every way possible, i've always enjoyed it, especially after solving big problems or getting new things working.
+						What i am most interested in though is programming, because there are so many possibilities with programming. Whatever you can think of there is likely a way that you can improve it with programming. Thats why later i would like to do things like programming on a professional level, as a software engineer.
 					</div>
 					<div class="buttondiv">
 						<button class="blogbutton">
-							<div class="blogbuttontext">
+							<div class="blogbuttontext" id="studychoicebutton" onclick="ReadMoreBlog('studychoice','studychoicebutton')">
 								Read more
 							</div>
 						</button>
 					</div>
 					<div class="blogpostdate">
-						00/00/00
+						October 1st 2022
 					</div>
 				</div>
 			</div>
-			-->
+
+
+			<div class="elementspacer">
+				<div class="blogpost">
+					<div class="blogtitle">
+						Skc Feedback
+					</div>
+					<div class="blogcontent" id="skcfeedback">
+						I've got some feedback on the who am i document that i filled in. Some of the feedback was about the SWOT analysis i made, it said that i need to think about what i need to learn to start asking questions. 
+						I think this is a very important remark as i can be seriously slowed down if i dont start asking questions when i need to. Another bit of feedback was about Job Oppertunities, it said i should do some research on the three different paths i can take, Software Engineer, Data Scientist or Business & IT consultant. Personally i think Software Engineer will fit me the most but i've not done much research yet so anything can change.
+					</div>
+					<div class="buttondiv">
+						<button class="blogbutton">
+							<div class="blogbuttontext" id="skcfeedbackbutton" onclick="ReadMoreBlog('skcfeedback','skcfeedbackbutton')">
+								Read more
+							</div>
+						</button>
+					</div>
+					<div class="blogpostdate">
+						October 1st 2022
+					</div>
+				</div>
+			</div>
 
 		</div>
 
