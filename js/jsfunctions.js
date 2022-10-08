@@ -1,5 +1,4 @@
 
-
 function ReadMoreBlog(postid, buttonid) {
     let post = document.getElementById(postid);
     post.style.maxHeight = "9000px";
@@ -13,4 +12,3 @@ function ReadLessBlog(postid, buttonid) {
 
     document.getElementById(buttonid).onclick = function () { ReadMoreBlog(postid, buttonid); }
 }
-//postid

@@ -1,6 +1,6 @@
 body {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Bahnschrift, Helvetica, sans-serif;
     background-color: #1d2022;
     background-image: url(background2.jpg);
     background-attachment:fixed;
@@ -427,4 +427,27 @@ thead{
 
 .elementspacer {
     padding:10px;
+}
+
+
+
+.faqlist > ul li {
+    display: inline-block;
+    background-color: rgba(62,8,29, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 96.5%;
+}
+
+.faqlist > ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.question {
+    display: block;
+    background-color: rgba(62, 8,29, 0.3);
+    padding: 10px;
+    border-radius: 5px;
 }
